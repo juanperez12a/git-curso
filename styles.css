@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&family=Roboto+Mono:wght@100&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{box-sizing: border-box;
+font-family: 'Work Sans';
+margin: 0;
+padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container-header{
+
+    background: blueviolet;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 99;
+}
+
+    .container-header header{
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+
+    }
+
+
+.container-header header .logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: aquamarine;
+    text-decoration: none;
+    }
+
+    .container-header header ul{
+        display: flex;
+        list-style: none;
+            }
+
+.container-header header nav ul li a{
+    text-align: none;
+    color: white;
+    margin: 0 15px;
+    padding: 3px;
+    transition:.5;
+    
+
+}
+         
