@@ -9,7 +9,7 @@ html{
 }
 .container-header{
 
-    background: blueviolet;
+    background: rgb(43, 183, 226);
     position: fixed;
     width: 100%;
     top:0;
@@ -31,7 +31,7 @@ html{
 .container-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: aquamarine;
+    color: blue;
     text-decoration: none;
     }
 
@@ -46,7 +46,18 @@ html{
     margin: 0 15px;
     padding: 3px;
     transition:.5;
-    
-
-}
+    text-decoration: none;
+    }
+    .container-header header nav ul li a:hover {
+        color: red;
+    }
          
+    .nav-responsive{
+        background-color: grey;
+        color: #000;
+        padding: 5px 10px;
+        border-radius: 7px;
+        cursor: pointer;
+        display: none;
+    }
+
